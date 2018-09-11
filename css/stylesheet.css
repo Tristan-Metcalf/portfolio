@@ -1,0 +1,166 @@
+
+
+	/*Header Styles*/
+
+.headerProps{
+	background-color: aliceblue;
+	height: 3.3em;
+	float: left;
+	width: 100%;
+	opacity: 0.9;
+	position: absolute;
+	z-index: 1;
+}
+
+#navbar ul{
+	list-style: none;
+}
+
+#navbar li{
+	display: inline;
+	text-decoration: none;
+	font-size: 1em;
+	font-family: lobster;
+	margin: 40px;
+	padding: 50px;
+	font-size: 200%;
+	overflow: none;
+}
+#company h1{
+	text-align: center;
+	font-size: 400%;
+	font-weight: bold;
+	color: #e6e6e6;
+	font-family: Papyrus;
+	text-shadow: 1px 2px black;
+	position: relative;
+	margin:auto;
+    vertical-align:middle;
+    top: 2.5em;
+}
+
+
+#navbar li:hover{
+	font-size: 2.1em;
+	overflow: none;
+
+}
+img.resize {
+    width: 40%;
+    margin-top: 7px;
+}
+img.resize:hover {
+    width:50%;
+    height: auto;
+}
+
+#logo img{
+	position: relative;
+	top: 20em;
+	left: 12em;
+	box-shadow: 5px 6px 5px grey;
+}
+
+.left{
+	width: 100%;
+	height: 3.3em;
+	text-align: center;
+
+}
+
+.right{
+	float: right;
+
+}
+span{
+	color: #a13939;
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #d63031;
+	margin: 10px;
+}
+
+.container1{
+	height: 30em;
+	float: left;
+	width: 100%;
+	background-color: #f6f6f6;
+/*	background-image: url("../img/laptop.jpg");*/
+	background-repeat: no-repeat;
+	background-position: cover;
+	background-size: 100% 65em;
+/*	filter: contrast(50%);*/
+
+}
+.container1 #backgroundImg{
+	height: 30em;
+	float: left;
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+	filter: contrast(30%);
+
+}
+
+.container2{
+	height: 50em;
+	float: left;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+#paragraphs{
+	position: relative;
+	float: right;
+	width: 40%;
+	top: 10em;
+	padding: 3px;
+	margin: 3px;
+
+}
+
+#paragraphs p{
+	font-size: 100%;
+	padding: 5px;
+}
+
+#bodyimages{
+	position: absolute;
+	top: 60em;
+	left: 10em;
+
+
+}
+#bodyimages img{
+
+	height: 10%;
+	width: 10%;
+	margin: 20px;
+	padding: 30px;
+
+}
+#bodyimages p{
+}
+
+	/*footer styles*/
+.footerleft{
+	padding: 3px;
+	margin: 10px;
+	float: left;
+
+}
+
+.footerright{
+	padding: 3px;
+	float: right;
+	margin: 10px;
+
+}
+@media only screen and (min-width: 864px) {
+    #company h1{
+       font-size: 500%;
+    }
+}
