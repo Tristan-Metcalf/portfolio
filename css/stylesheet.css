@@ -4,14 +4,16 @@
 
 .headerProps{
 	background-color: rgb(50,51,55);
-	height: 5em;
+	height: 4em;
 	float: left;
 	width: 100%;
 	opacity: .80;
 	position: absolute;
 	z-index: 1;
 }
-
+.headerProps li{
+	text-align: center;
+}
 
 a{
 	text-decoration: none;
@@ -80,7 +82,6 @@ span{
 
 .container1 #backgroundImg{
 	height: 50em;
-	float: left;
 	width: 100%;
 	position: absolute;
 	z-index: 0;
@@ -97,16 +98,23 @@ span{
 /*second panel*/
 
 .container3{
-	height: 40em;
+	height: 20em;
 	width: 100%;
 	background-color: #696969;
 }
 .container3 img{
-	width: 225px;
-	height: 225px;
-	margin: 200px 200px 0px 200px;
+	width: 175px;
+	height: 175px;
+	margin: 200px 0px 0px 200px;
 	position: relative;
-	left: 800px;
+	left: 600px;
+}
+.container3 p{
+	display: inline-block;
+	position: relative;
+	left: 565px;
+	margin: 100px 25px 0px 250px;
+
 }
 
 #paragraphs{
