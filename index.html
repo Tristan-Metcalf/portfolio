@@ -15,7 +15,7 @@
 		<div class="headerProps">
 			<div id="navbar">
 				<ul class="left">
-					<li><a href="#">home</a></li>
+					<li><a id="button1" href="#">home</a></li>
 					<li><a href="#">services</a></li>
 					<li><a href="#">portfolio</a></li>
 				</ul>
@@ -24,7 +24,7 @@
 
 				<!-- links on the right side -->
 			<div >
-				<ul class="right">
+				<ul class="right" style="margin: 70px 30px 30px 30px;">
 
 
 					<li><a href="https://www.linkedin.com/in/tristan-metcalf-b545525b/"><img class="resize" src="img/In-Black-66px-TM.png" 
@@ -44,21 +44,21 @@
 		<div id="company">
 					<img id="backgroundImg" src="img/laptop.jpg" alt="laptop">
 				
-					<h1>Tristan <span>Metcalf</span></h1>
+					<h1 style="font-size: 130px;">Tristan <span>Metcalf</span></h1>
 		</div>
 		<div class="backgroundImg">
 			
 		</div>
 		<div id="logo">	
-		<img src="http://via.placeholder.com/250x250" alt="picture1">
+		<img src="http://via.placeholder.com/350x350" alt="picture1">
 		</div>
 
 	</header>
 
-				<div class="container2">
-				
-			</div>
+				<div class="container2"></div>
 
+				<div class="container3">
+</div>
 
 
 
@@ -70,5 +70,26 @@
 					<a class="footerright" href="policy.html">Policy</a>
 				</div>
 			</footer>
+<script>
+var image = document.getElementById('backgroundImg');
+var button = document.getElementById('button1')
+var image1 = 1;
+
+
+button.onclick = function() {
+	if (image1 == 1) {
+		image.src = "img/pexels-photo.jpg";
+		image1 = 0;
+
+	}else{
+
+	image.src = "img/laptop.jpg";
+	image1 = 1;
+	}
+	console.log(image);
+}
+
+
+</script>
 </body>
 </html>

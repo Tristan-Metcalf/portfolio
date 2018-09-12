@@ -4,10 +4,10 @@
 
 .headerProps{
 	background-color: rgb(50,51,55);
-	height: 2em;
+	height: 5em;
 	float: left;
 	width: 100%;
-	opacity: 1;
+	opacity: .80;
 	position: absolute;
 	z-index: 1;
 }
@@ -30,21 +30,19 @@ a{
 	text-decoration: none;
 	font-size: 1em;
 	font-family: calibri;
-	margin: 40px;
-	padding: 50px;
-	font-size: 175%;
-	overflow: none;
+	margin: 50px;
+	padding: 60px;
+	font-size: 300%;
 }
 #company h1{
 	text-align: center;
-	font-size: 400%;
 	font-weight: bold;
 	color: #e6e6e6;
 	text-shadow: 1px 2px black;
 	position: relative;
 	margin:auto;
     vertical-align:middle;
-    top: 2.5em;
+    top: 3.2em;
 }
 
 
@@ -57,9 +55,10 @@ img.resize {
 
 #logo img{
 	position: relative;
-	top: 20em;
+	top: 35em;
 	left: 12em;
 	box-shadow: 5px 6px 5px grey;
+	background-color: #696969;
 }
 
 .left{
@@ -71,6 +70,7 @@ img.resize {
 
 .right{
 	float: right;
+	margin: 0px 200px 200px 200px;
 
 }
 span{
@@ -78,23 +78,35 @@ span{
 }
 
 
-.container1{
-
-}
 .container1 #backgroundImg{
-	height: 30em;
+	height: 50em;
 	float: left;
 	width: 100%;
 	position: absolute;
 	z-index: 0;
 	filter: contrast(70%);
+	opacity: 1;
 
 }
 
 .container2{
-	height: 35em;
+	height: 23em;
 	width: 100%;
 	background-color: #696969;
+}
+/*second panel*/
+
+.container3{
+	height: 40em;
+	width: 100%;
+	background-color: #696969;
+}
+.container3 img{
+	width: 225px;
+	height: 225px;
+	margin: 200px 200px 0px 200px;
+	position: relative;
+	left: 800px;
 }
 
 #paragraphs{
@@ -112,13 +124,7 @@ span{
 	padding: 5px;
 }
 
-#bodyimages{
-	position: absolute;
-	top: 60em;
-	left: 10em;
 
-
-}
 #bodyimages img{
 
 	height: 10%;
