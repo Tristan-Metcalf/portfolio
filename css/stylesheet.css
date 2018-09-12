@@ -3,27 +3,36 @@
 	/*Header Styles*/
 
 .headerProps{
-	background-color: aliceblue;
-	height: 3.3em;
+	background-color: rgb(50,51,55);
+	height: 2em;
 	float: left;
 	width: 100%;
-	opacity: 0.9;
+	opacity: 1;
 	position: absolute;
 	z-index: 1;
 }
 
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	margin: 25px;
+}
+
 #navbar ul{
 	list-style: none;
+	opacity: 1;
 }
 
 #navbar li{
 	display: inline;
 	text-decoration: none;
 	font-size: 1em;
-	font-family: lobster;
+	font-family: calibri;
 	margin: 40px;
 	padding: 50px;
-	font-size: 200%;
+	font-size: 175%;
 	overflow: none;
 }
 #company h1{
@@ -31,7 +40,6 @@
 	font-size: 400%;
 	font-weight: bold;
 	color: #e6e6e6;
-	font-family: Papyrus;
 	text-shadow: 1px 2px black;
 	position: relative;
 	margin:auto;
@@ -40,19 +48,12 @@
 }
 
 
-#navbar li:hover{
-	font-size: 2.1em;
-	overflow: none;
 
 }
 img.resize {
     width: 40%;
-    margin-top: 7px;
 }
-img.resize:hover {
-    width:50%;
-    height: auto;
-}
+
 
 #logo img{
 	position: relative;
@@ -76,23 +77,8 @@ span{
 	color: #a13939;
 }
 
-a{
-	text-decoration: none;
-	font-weight: bold;
-	color: #d63031;
-	margin: 10px;
-}
 
 .container1{
-	height: 30em;
-	float: left;
-	width: 100%;
-	background-color: #f6f6f6;
-/*	background-image: url("../img/laptop.jpg");*/
-	background-repeat: no-repeat;
-	background-position: cover;
-	background-size: 100% 65em;
-/*	filter: contrast(50%);*/
 
 }
 .container1 #backgroundImg{
@@ -101,15 +87,14 @@ a{
 	width: 100%;
 	position: absolute;
 	z-index: 0;
-	filter: contrast(30%);
+	filter: contrast(70%);
 
 }
 
 .container2{
-	height: 50em;
-	float: left;
+	height: 35em;
 	width: 100%;
-	background-color: #ffffff;
+	background-color: #696969;
 }
 
 #paragraphs{
