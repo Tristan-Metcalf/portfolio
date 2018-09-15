@@ -1,6 +1,6 @@
 @keyframes example {
-    from {background-color: none;}
-    to {background-color: rgb(50,51,55);
+    from {color: none;}
+    to {color: rgb(50,51,55);
     	opacity: .5;}
 }
 
@@ -53,7 +53,7 @@ a{
 	top: -12px;
 	font-size: 4em;
 }
-#navbar li:nth-child(n+2):hover{
+#navbar li:hover{
 	animation-name: example;
     animation-duration: 1s;
     -webkit-animation-fill-mode: forwards;
