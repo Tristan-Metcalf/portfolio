@@ -43,7 +43,7 @@ $(window).scroll(function(event) {
 
 $(window).scroll(function(event) {
 
-  $("#bodyimages").each(function(i, el) {
+  $(".parag").each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
       el.addClass("fadein"); 
