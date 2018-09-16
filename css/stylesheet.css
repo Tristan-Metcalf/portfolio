@@ -1,3 +1,5 @@
+
+
 @keyframes example {
     from {color: none;}
     to {color: rgb(50,51,55);
@@ -161,12 +163,7 @@ span{
 	text-overflow: hidden;
 
 }
-.about h1{
-	text-align: center;
-	position: relative;
-	font-size: 32px;
-	font-weight: bold;
-}
+
 .about p{
 	font-size: 24px;
 	margin-top: 10px;
@@ -183,19 +180,30 @@ span{
 	overflow-x: hidden;
 	left: 250px;
 }
-#bodyimages p{
-	display: inline;
-	margin: auto;
-}
 #bodyimages{
 	position: relative;
 	margin: auto;
-	top: 15%;
-	left: 5%
+	top: 10%;
+}
+#imageone{
+	margin: 0 auto;
+	position: relative;
+	top: 10%;
+	right: 10%;
+	width: 500px;
 }
 
 
 
+#imageone p{
+	display: inline;
+	margin: 0%;
+	font-weight: bold;
+	font-family: Helvetica;
+	font-size: 18px;
+	left: 50%;
+	overflow: hidden;
+}
 
 	/*footer styles*/
 footer{
@@ -238,12 +246,30 @@ footer{
 .container4 img{
 	height: 170px;
 	width: 170px;
+	margin: 0;
+	display: block;
 }
 #bodyimages p{
-left: 8%;
 position: relative;
+display: block;
+margin: 0;
+padding: 0;
+}
+#imageone{
 }
 #bodyimages{
-	right: 10%
+	right: 0%;
+	margin: 0;
+	top: 20%;
+}
+.container3{
+	height: 40em;
+}
+.container4{
+	height: 50em;
+}
+.container3 .abouth1{
+	top: 70%;
+	right: 25%;
 }
 }
