@@ -47,8 +47,18 @@ $(window).scroll(function(event) {
     var el = $(el);
     if (el.visible(true)) {
       el.addClass("fadein"); 
-    }else{
-      el.removeClass("fadein");
+    }
+    
+  });
+  
+});
+
+$(window).scroll(function(event) {
+
+  $(".imgAni").each(function(i, el) {
+    var el = $(el);
+    if (el.visible(true)) {
+      el.addClass("fadein"); 
     }
   });
   
