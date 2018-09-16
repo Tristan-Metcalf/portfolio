@@ -37,7 +37,6 @@ a{
 #navbar li{
 	display: inline;
 	text-decoration: none;
-	font-size: 1em;
 	font-family: calibri;
 	font-size: 300%;
 	position: relative;
@@ -53,7 +52,7 @@ a{
 	top: -12px;
 	font-size: 4em;
 }
-#navbar li:hover{
+	li:hover{
 	animation-name: example;
     animation-duration: 1s;
     -webkit-animation-fill-mode: forwards;
@@ -81,7 +80,7 @@ img.resize {
 	position: relative;
 	top: 35em;
 	left: 12em;
-	box-shadow: 5px 6px 5px grey;
+	box-shadow: 5px 6px 5px black;
 	background-color: #696969;
 }
 
@@ -127,12 +126,12 @@ span{
 }
 .about{
 	position: relative;
-	height: auto;
 	width: 350px;
 	float: right;
-	margin: 100px 100px 100px 100px;
-	top: -50px;
-	right: 225px;
+	margin: 0 auto;
+	text-align: center;
+	bottom: 30%%;
+	right: 40%;
 
 }
 .about h1{
@@ -159,10 +158,11 @@ span{
 }
 #bodyimages p{
 	display: inline;
+	margin: auto;
 }
 #bodyimages{
 	position: relative;
-	top: -70px;
+	margin: auto;
 }
 
 
@@ -186,23 +186,12 @@ footer{
 	color: black;
 
 }
-@media only screen and (max-width: 500px) {
-    .about{
-	position: relative;
-	height: auto;
-	width: 350px;
-	float: right;
-	margin: 100px 100px 100px 100px;
-	top: -100px;
-	right: -40px;
+@media only screen and (max-width: 1000px) {
+	#navbar li{
+		margin: 20px;
+		font-size: 200%;
 
 }
-#bodyimages{
-	position: relative;
-	top: -30px;
-}
-#navbar li{
-	margin: 0px 0% 0px 0%;
-	padding: 0px;
-}
+
+
 }
