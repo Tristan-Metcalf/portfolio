@@ -33,10 +33,9 @@ $(window).scroll(function(event) {
   $(".about").each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
-      el.addClass("fadein"); 
-    }else{
-      el.removeClass("fadein");
+      el.addClass("animated fadeInUp"); 
     }
+    
   });
   
 });
@@ -46,7 +45,19 @@ $(window).scroll(function(event) {
   $(".parag").each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
-      el.addClass("animated fadeInUp slow"); 
+      el.addClass("animated fadeInUp slower"); 
+    }
+    
+  });
+  
+});
+
+$(window).scroll(function(event) {
+
+  $(".parag2").each(function(i, el) {
+    var el = $(el);
+    if (el.visible(true)) {
+      el.addClass("animated fadeInUp"); 
     }
     
   });
@@ -61,5 +72,18 @@ $(window).scroll(function(event) {
       el.addClass("animated fadeInLeftBig slower"); 
     }
   });
+
+  
+});
+
+$(window).scroll(function(event) {
+
+  $(".imgAni2").each(function(i, el) {
+    var el = $(el);
+    if (el.visible(true)) {
+      el.addClass("animated fadeInLeftBig"); 
+    }
+  });
+  
   
 });
