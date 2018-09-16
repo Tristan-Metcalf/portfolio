@@ -46,7 +46,7 @@ $(window).scroll(function(event) {
   $(".parag").each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
-      el.addClass("fadein"); 
+      el.addClass("animated fadeInUp slow"); 
     }
     
   });
@@ -58,7 +58,7 @@ $(window).scroll(function(event) {
   $(".imgAni").each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
-      el.addClass("fadein"); 
+      el.addClass("animated fadeInLeftBig slower"); 
     }
   });
   
