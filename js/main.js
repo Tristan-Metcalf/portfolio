@@ -33,7 +33,7 @@ $(window).scroll(function(event) {
   $(".about").each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
-      el.addClass("animated fadeInUp"); 
+      el.addClass("fadein"); 
     }
     
   });
@@ -45,7 +45,7 @@ $(window).scroll(function(event) {
   $(".parag").each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
-      el.addClass("animated fadeInUp slower"); 
+      el.addClass("animated fadeInLeft"); 
     }
     
   });
@@ -57,7 +57,7 @@ $(window).scroll(function(event) {
   $(".parag2").each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
-      el.addClass("animated fadeInUp"); 
+      el.addClass("animated fadeInLeft"); 
     }
     
   });
@@ -69,7 +69,7 @@ $(window).scroll(function(event) {
   $(".imgAni").each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
-      el.addClass("animated fadeInLeftBig slower"); 
+      el.addClass("animated fadeInRight"); 
     }
   });
 
@@ -81,7 +81,7 @@ $(window).scroll(function(event) {
   $(".imgAni2").each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
-      el.addClass("animated fadeInLeftBig"); 
+      el.addClass("animated fadeInRight"); 
     }
   });
   
