@@ -133,19 +133,17 @@ span{
 /*second panel*/
 
 .container3{
+	display: flex;
 	height: 30em;
 	width: 100%;
 	background-color: rgb(50,51,55);
 }
 .container3 .abouth1{
-	margin: 100px;
-	float: right;
-	position: relative;
-	top: 60%;
-	right: 36%;
+	margin: auto;
 }
 .container3 h1{
 	font-size: 72px;
+	top: 50px;
 	font-family: Helvetica;
 	font-weight: bold;
 	color: #a13939;
@@ -153,15 +151,12 @@ span{
 .about{
 	position: relative;
 	width: 80%;
-	float: right;
 	margin:auto;
 	text-align: center;
-	top: 30%;
-	right: 12.5%;
 	font-family: Helvetica;
 	text-align: center;
 	text-overflow: hidden;
-
+	top: -100px;
 }
 
 .about p{
@@ -260,10 +255,7 @@ footer{
 .about {
 	top: 5%;
 	right: 10%;
-	margin: 0 auto;
-}
-.container3 .abouth1{
-	right: 20%;
+	margin: auto;
 }
 
 .container4 img{
@@ -278,14 +270,12 @@ footer{
 }
 .container3{
 	height: 60em;
+	margin-top: -4px;
 }
 .container4{
 	height: 60em;
 }
-.container3 .abouth1{
-	top: 40%;
-	right: 0%;
-}
+
 .container3 h1{
 	font-size: 150px;
 }
