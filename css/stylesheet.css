@@ -20,10 +20,13 @@
 .headerProps .icon {
   display: none;
 }
-
+.resize{
+	height: 100px;
+	width: 125px;
+}
 .headerProps{
 	background-color: rgb(50,51,55);
-	height: 4em;
+	height: 6em;
 	float: left;
 	width: 100%;
 	opacity: .80;
@@ -50,7 +53,7 @@ a{
 	display: inline;
 	text-decoration: none;
 	font-family: calibri;
-	font-size: 300%;
+	font-size: 400%;
 	position: relative;
 	top: 8px;
 	margin: 0px 10% 0px 10%;
@@ -75,24 +78,16 @@ li:hover{
 	color: #e6e6e6;
 	text-shadow: 4px 2px black;
 	position: relative;
-	margin:auto;
-    vertical-align:middle;
+	margin:0px;
     top: 3.2em;
-    font-size: 130px;
-}
-
-
-
-}
-img.resize {
-    width: 40%;
+    font-size: 190px;
 }
 
 
 #logo img{
 	position: relative;
-	top: 35em;
-	left: 12em;
+	top: 65em;
+	left: 18em;
 	box-shadow: 5px 6px 5px black;
 	background-color: #696969;
 }
@@ -115,7 +110,7 @@ span{
 
 
 .container1 #backgroundImg{
-	height: 53.5em;
+	height: 87.5em;
 	width: 100%;
 	position: absolute;
 	z-index: 0;
@@ -126,7 +121,7 @@ span{
 }
 
 .container2{
-	height: 23em;
+	height: 50em;
 	width: 100%;
 	background-color: #696969;
 }
@@ -142,7 +137,8 @@ span{
 	margin: auto;
 }
 .container3 h1{
-	font-size: 72px;
+	position: relative;
+	font-size: 96px;
 	top: 50px;
 	font-family: Helvetica;
 	font-weight: bold;
@@ -160,10 +156,10 @@ span{
 }
 
 .about p{
-	font-size: 24px;
+	font-size: 46px;
 }
 .container4{
-	height: 40em;
+	height: 50em;
 	width: auto;
 	background-color: #696969;
 }
@@ -174,32 +170,6 @@ span{
 .container5{
 	background-color: rgb(50,51,55);
 	height: 40px;
-}
-.imageGroup{
-}
-.imageGroupTwo{
-	position: relative;
-	top: -520px;
-	right: -315px;
-	width: 300px;
-	height: auto;
-	margin:0;
-}
-
-#imageone{
-	position: relative;
-	height: 160px;
-	width: 130px;
-	padding: 50px;
-	overflow: hidden;
-}
-#imagetwo{
-	position: relative;
-	height: auto;
-	width: 130px;
-	padding: 50px;
-	overflow: hidden;
-	margin: 0;
 }
 
 
@@ -247,16 +217,33 @@ footer{
 		font-size: 200%;
 
 }
+.container1 #backgroundImg{
+	height: 55.5em;
+}
+
+
+
+.container2{
+	height: 22em;
+
+}
+#logo img {
+    top: 38em;
+    left: 3em;
+}
 #company h1{
     font-size: 72px;
     top: 5em;
+    right: 100px;
 
 }
 .about {
 	top: 5%;
 	right: 10%;
+	text-align: center;
 	margin: auto;
 }
+
 
 .container4 img{
 	height: 170px;
@@ -269,15 +256,19 @@ footer{
 	right: 30%;
 }
 .container3{
-	height: 60em;
 	margin-top: -4px;
 }
-.container4{
-	height: 60em;
-}
 
-.container3 h1{
-	font-size: 150px;
+.container3 h1 {
+    font-size: 74px;
+    right: -180px;
+    top: 20px;
+}
+.about p {
+	position: relative;
+	right: -105px;
+    font-size: 32px;
+    top: -100px;
 }
 }
 
