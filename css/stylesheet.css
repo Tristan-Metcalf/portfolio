@@ -1,4 +1,6 @@
-
+/*
+animation
+*/
 @keyframes hoveranimation {
     from {color: none;}
     to {color: rgb(50,51,55);
@@ -21,12 +23,12 @@
   display: none;
 }
 .resize{
-	height: 100px;
-	width: 125px;
+	height: 75px;
+	width: 90px;
 }
 .headerProps{
 	background-color: rgb(50,51,55);
-	height: 6em;
+	height: 3em;
 	float: left;
 	width: 100%;
 	opacity: .80;
@@ -41,7 +43,7 @@ a{
 	text-decoration: none;
 	font-weight: bold;
 	color: white;
-	margin: 25px;
+	margin: 7px;
 }
 
 #navbar ul{
@@ -53,7 +55,7 @@ a{
 	display: inline;
 	text-decoration: none;
 	font-family: calibri;
-	font-size: 400%;
+	font-size: 200%;
 	position: relative;
 	top: 8px;
 	margin: 0px 10% 0px 10%;
@@ -79,15 +81,15 @@ li:hover{
 	text-shadow: 4px 2px black;
 	position: relative;
 	margin:0px;
-    top: 3.2em;
-    font-size: 190px;
+    top: 2.3em;
+    font-size: 112px;
 }
 
 
 #logo img{
 	position: relative;
-	top: 65em;
-	left: 18em;
+	top: 28em;
+	left: 10em;
 	box-shadow: 5px 6px 5px black;
 	background-color: #696969;
 }
@@ -108,9 +110,9 @@ span{
 	color: #a13939;
 }
 
-
+/*backgrund image*/
 .container1 #backgroundImg{
-	height: 87.5em;
+	height: 47.5em;
 	width: 100%;
 	position: absolute;
 	z-index: 0;
@@ -119,9 +121,9 @@ span{
 	filter: blur(3px);
 
 }
-
+/*div under background image*/
 .container2{
-	height: 50em;
+	height: 15em;
 	width: 100%;
 	background-color: #696969;
 }
@@ -136,13 +138,16 @@ span{
 .container3 .abouth1{
 	margin: auto;
 }
+
+/*who am i h1*/
 .container3 h1{
 	position: relative;
-	font-size: 96px;
-	top: 50px;
+	font-size: 76px;
+	top: 20px;
 	font-family: Helvetica;
 	font-weight: bold;
 	color: #a13939;
+	left: 200px;
 }
 .about{
 	position: relative;
@@ -156,17 +161,27 @@ span{
 }
 
 .about p{
-	font-size: 46px;
+	font-size: 32px;
 }
 .container4{
-	height: 50em;
+	height: 30em;
 	width: auto;
 	background-color: #696969;
+	display: grid;
+	grid-template-columns: 30% 20%;
+	padding: 100px;
 }
 .container4 img{
 	height: 100px;
 	width: 100px;
+
 }
+.container4 p{
+	font-weight: bold;
+	font-family: Helvetica;
+	font-size: 18px;
+}
+/*footer*/
 .container5{
 	background-color: rgb(50,51,55);
 	height: 40px;
@@ -183,15 +198,6 @@ span{
 	right: 20px;
 }
 
-.container4 p{
-	font-weight: bold;
-	font-family: Helvetica;
-	font-size: 18px;
-	margin: 0px;
-	position: relative;
-	right: -20px;
-	padding: 10px;
-}
 
 	/*footer styles*/
 footer{
@@ -216,6 +222,9 @@ footer{
 		margin: 20px;
 		font-size: 200%;
 
+}
+a{
+	margin: 0px;
 }
 .container1 #backgroundImg{
 	height: 55.5em;
@@ -244,31 +253,31 @@ footer{
 	margin: auto;
 }
 
-
+.container4{
+		grid-template-columns: 30% 30%;
+		overflow: hidden;
+}
 .container4 img{
 	height: 170px;
 	width: 170px;
 	margin: 0;
-	display: block;
+	padding: 0;
 }
-.imageGroup{
-	position: relative;
-	right: 30%;
-}
+
 .container3{
 	margin-top: -4px;
 }
 
 .container3 h1 {
     font-size: 74px;
-    right: -180px;
+    right: -200px;
     top: 20px;
 }
 .about p {
 	position: relative;
 	right: -105px;
     font-size: 32px;
-    top: -100px;
+    top: -120px;
 }
 }
 

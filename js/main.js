@@ -69,7 +69,7 @@ $(window).scroll(function(event) {
   $(".imgAni").each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
-      el.addClass("animated fadeInRight"); 
+      el.addClass("animated fadeInRightBig"); 
     }
   });
 
@@ -81,7 +81,7 @@ $(window).scroll(function(event) {
   $(".imgAni2").each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
-      el.addClass("animated fadeInRight"); 
+      el.addClass("animated fadeInRightBig"); 
     }
   });
   
