@@ -171,18 +171,55 @@ span{
 .container4inside{
   overflow: hidden;
   position: relative;
-  width: 100%;
+  width: 60%;
   height: 50%;
   display: flex;
   justify-content: center; /*centers items on the line (the x-axis by default)*/
   align-items: center; /*centers items on the cross-axis (y by default)*/
   bottom: 80px;
+  float: left;
 }
 .container4inside div{
+	float: left;
 	padding: 140px;
 	margin-top: 30px;
 	text-align: center;
 }
+	.form{
+	position: relative;
+	float: right;
+	border: solid black 1px;
+	height: 50%;
+	width: 30%;
+	right: 40px;
+	top: -150px;
+
+}
+.stackedform{
+	justify-content: center; /*centers items on the line (the x-axis by default)*/
+  	align-items: center; /*centers items on the cross-axis (y by default)*/
+  	display: flex;
+}
+input{
+	position: relative;
+	margin: 10px;
+	width: 50%;
+	text-align: center;
+
+
+}
+textarea{
+	position: relative;
+	margin: 10px;
+	float: left;
+	width: 80%;
+	text-align: center;
+	height: 160px;
+	resize: none;
+
+
+}
+
 .container4 img{
 	height: 125px;
 	width: 125px;
