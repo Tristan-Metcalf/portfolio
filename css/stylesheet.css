@@ -178,21 +178,28 @@ span{
   align-items: center; /*centers items on the cross-axis (y by default)*/
   bottom: 80px;
   float: left;
+  padding-left: 30px;
 }
 .container4inside div{
 	float: left;
-	padding: 140px;
+	padding: 80px;
 	margin-top: 30px;
 	text-align: center;
 }
+
 	.form{
 	position: relative;
 	float: right;
-	border: solid black 1px;
-	height: 50%;
-	width: 30%;
-	right: 40px;
-	top: -150px;
+	height: 55%;
+	width: 25%;
+	right: 20px;
+	top: -40px;
+	margin: 0px;
+	padding: 0px;
+	background-color: rgb(50,51,55);
+	overflow: hidden;
+	border-radius: 20%;
+	border: solid black 2px;
 
 }
 .stackedform{
@@ -223,7 +230,34 @@ textarea{
 .container4 img{
 	height: 125px;
 	width: 125px;
+	border: solid black 1px;
+	border-radius: 20px;
+	padding: 5px;
+	background-color: rgb(50,51,55);
 
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 2;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 .container4 p{
 	font-weight: bold;
@@ -260,6 +294,7 @@ footer{
 }
 
 .footerright{
+	position: relative;
 	padding: 3px;
 	float: right;
 	margin: 10px;
@@ -309,8 +344,6 @@ a{
 .container4 img{
 	height: 90px;
 	width: 90px;
-	margin: 0;
-	padding: 0;
 }
 .container4inside div{
 	padding: 40px;
@@ -330,6 +363,9 @@ a{
 	right: -105px;
     font-size: 32px;
     top: -120px;
+}
+.form{
+	width: 35%
 }
 }
 

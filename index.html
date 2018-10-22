@@ -22,7 +22,7 @@
 			<div id="navbar">
 				<ul class="left">
 					<li><img style="height: 56px;width: 56px;position: relative;left: 30px;" class="resize" src="img/tm3.png" alt=""></li>
-					<li><a href="#">contact</a></li>
+					<li><a href="#usrform">contact</a></li>
 					<li><a href="#">portfolio</a></li>
 					<li><a id="button1" href="#">services</a></li>
 				</ul>
@@ -64,7 +64,7 @@
 				<div class="container2"></div>
 				<div class="container3">
 					<div class="abouth1">
-					<h1>Backstory</h1>
+					<h1>Background</h1>
 					</div>
 				</div>
 
@@ -77,37 +77,42 @@
 
 			<div class="container4">
 				<div class="container4inside">
-					<div>
+					<div class="tooltip">
 						<img src="img/Python-Logo.png" alt="python logo" class="imgAni2">
-						<p class="imgAni2">Python</p>
+						<p class="tooltiptext">Python</p>
+
 					</div>
 
-					<div>
+					<div class="tooltip">
 						<img class="imgAni2" src="img/jquery.png" alt="Jquery logo">
-						<p class="parag">JQuery</p>
+						<p class="tooltiptext">JQuery</p>
 					</div>
 
-					<div>
+					<div class="tooltip">
 						<img class="imgAni" src="img/nodejs.png" alt="nodejs logo">
-						<p class="parag">NodeJs</p>
+						<p class="tooltiptext">NodeJS</p>
 					</div>
 
 				</div>
 			<div class="container4inside">
-					<div>
+					<div class="tooltip">
 						<img src="img/verticalDocker.png" alt="docker logo" class="imgAni2">
+						<p class="tooltiptext">Docker</p>
 					</div>
-					<div>
+					<div class="tooltip">
 						<img src="img/logo-mysql-170x115.png" alt="mysql" class="imgAni2">
+						<p class="tooltiptext">mySQL</p>
 					</div>
-					<div>
-						<img src="img/new-php-logo.png" style="height: 90px;width: 90px;" alt="Php logo" class="imgAni2">
+					<div class="tooltip">
+						<img src="img/new-php-logo.png"alt="Php logo" class="imgAni2">
+						<p class="tooltiptext">PHP</p>
 					</div>
 	
 			</div>
 
-
-			<form method="POST" class="form" action=emails.php" id="usrform">
+			
+			<form method="POST" class="form" action=emails.php" id="usrform" name="usrform">
+						<h1 class="stackedform" style="font-size: 32px;">Contact me</h1>
 					<div class="stackedform">
 						<input placeholder="Name" type="text"><br>
 					</div>
@@ -115,7 +120,7 @@
 						<input placeholder="Email" type="email"><br>
 					</div>
 					<div class="stackedform">
-						<textarea  name="comment" form="usrform">Enter message here...</textarea>
+						<textarea  name="comment" form="usrform" placeholder="Enter message here..."></textarea>
 					</div>
 					<div class="stackedform">
 						<button>submit</button>
