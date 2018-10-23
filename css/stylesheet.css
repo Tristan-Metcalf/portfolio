@@ -238,11 +238,8 @@ span{
   	display: flex;
   	padding-top: 5px;
   	font-weight: bold;
-}
-.stackedform h1{
-	position: absolute;
-	font-size: 56px;
-	top: 100px;
+  	font-size: 56px;
+
 }
 
 .contactInput{
