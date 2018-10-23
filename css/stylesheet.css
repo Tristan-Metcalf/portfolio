@@ -1,6 +1,7 @@
 /*
 animation
 */
+
 @keyframes hoveranimation {
     from {color: none;}
     to {color: rgb(50,51,55);
@@ -131,42 +132,49 @@ span{
 
 .container3{
 	display: flex;
-	height: 30em;
+	height: 25em;
 	width: 100%;
-	background-color: rgb(50,51,55);
 }
-.container3 .abouth1{
-	margin: auto;
+.container3inside{
+	display: flex;
+	height: 5em;
+	width: 100%;
+}
+.container3inside i{
+	display: flex;
+	font-size: 72px;
+	margin: 0px auto auto auto;
+	padding: 0px 100px 50px 100px;
 }
 
-/*who am i h1*/
-.container3 h1{
-	position: relative;
-	font-size: 76px;
-	top: 20px;
-	font-family: Helvetica;
-	font-weight: bold;
-	color: #a13939;
-	left: 200px;
+/*between 3 and 4 sorry future Tristan*/
+.containerbefore4{
+	display: flex;
+	height: 50em;
+	width: 100%;
+	background-image: url(../img/abstract-art-background-370799.jpg);
+
 }
+
+
 .about{
 	position: relative;
-	width: 80%;
+	width: 40%;
 	margin:auto;
 	text-align: center;
+	right: -258px;
 	font-family: Helvetica;
-	text-align: center;
-	text-overflow: hidden;
-	top: -100px;
 }
 
 .about p{
 	font-size: 32px;
 }
 .container4{
-	height: 40em;
+	height: 55em;
 	width: auto;
 	background-color: #696969;
+	background-image: url(../img/background-blur-clean-531880.jpg);
+
 }
 .container4inside{
   overflow: hidden;
@@ -192,30 +200,32 @@ span{
 	float: right;
 	height: 55%;
 	width: 25%;
-	right: 20px;
-	top: -40px;
+	right: 87px;
+	top: -204px;
 	margin: 0px;
 	padding: 0px;
-	background-color: rgb(50,51,55);
 	overflow: hidden;
 	border-radius: 20%;
-	border: solid black 2px;
 
 }
 .stackedform{
 	justify-content: center; /*centers items on the line (the x-axis by default)*/
   	align-items: center; /*centers items on the cross-axis (y by default)*/
   	display: flex;
+  	padding-top: 5px;
+  	font-weight: bold;
 }
-input{
+
+.contactInput{
 	position: relative;
 	margin: 10px;
 	width: 50%;
 	text-align: center;
+	border-radius: 10%;
 
 
 }
-textarea{
+.contactTextArea{
 	position: relative;
 	margin: 10px;
 	float: left;
@@ -223,24 +233,28 @@ textarea{
 	text-align: center;
 	height: 160px;
 	resize: none;
+	border-radius: 8%;
 
 
 }
+.submitButton{
+	border-radius: 10%;
+	border-color: rgb(50,51,55);
+	}
 
 .container4 img{
 	height: 125px;
 	width: 125px;
 	border: solid black 1px;
 	border-radius: 20px;
-	padding: 5px;
+	padding: 5px 5px 0px 5px;
 	background-color: rgb(50,51,55);
-
+	margin-bottom: 0px;
 }
 
 .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
 }
 
 .tooltip .tooltiptext {
@@ -267,7 +281,8 @@ textarea{
 /*footer*/
 .container5{
 	background-color: rgb(50,51,55);
-	height: 40px;
+	height: 30em;
+	margin-bottom: 0px;
 }
 
 
@@ -284,12 +299,14 @@ textarea{
 
 	/*footer styles*/
 footer{
+	height: 0px;
+	position: relative;
 	background-color: rgb(50,51,55);
 }
 .footerleft{
-	padding: 3px;
-	margin: 10px;
 	float: left;
+	float: bottom;
+	padding: 3px;
 
 }
 
@@ -297,75 +314,67 @@ footer{
 	position: relative;
 	padding: 3px;
 	float: right;
-	margin: 10px;
 	color: black;
+	float: bottom;
 
 }
-@media only screen and (max-width: 1000px) {
-	#navbar li{
-		margin: 20px;
-		font-size: 200%;
+		@media only screen and (max-width: 1000px) {
+			#navbar li{
+				margin: 20px;
+				font-size: 200%;
 
-}
-a{
-	margin: 0px;
-}
-.container1 #backgroundImg{
-	height: 55.5em;
-}
+		}
+		a{
+			margin: 0px;
+		}
+		.container1 #backgroundImg{
+			height: 55.5em;
+		}
 
 
 
-.container2{
-	height: 22em;
+		.container2{
+			height: 22em;
 
-}
-#logo img {
-    top: 38em;
-    left: 3em;
-}
-#company h1{
-    font-size: 72px;
-    top: 5em;
-    right: 100px;
+		}
+		#logo img {
+		    top: 38em;
+		    left: 3em;
+		}
+		#company h1{
+		    font-size: 72px;
+		    top: 5em;
+		    right: 100px;
 
-}
-.about {
-	top: 5%;
-	right: 10%;
-	text-align: center;
-	margin: auto;
-}
+		}
 
-.container4{
-		text-align: center;
-		overflow: hidden;
-}
-.container4 img{
-	height: 90px;
-	width: 90px;
-}
-.container4inside div{
-	padding: 40px;
-}
+		.container4{
+				text-align: center;
+				overflow: hidden;
+		}
+		.container4 img{
+			height: 90px;
+			width: 90px;
+		}
+		.container4inside div{
+			padding: 40px;
+		}
 
-.container3{
-	margin-top: -4px;
-}
+		.container3{
+			margin-top: -4px;
+		}
+		.about{
+			top: 30px;
+			right: -200px;
+		}
 
-.container3 h1 {
-    font-size: 74px;
-    right: -200px;
-    top: 20px;
-}
-.about p {
-	position: relative;
-	right: -105px;
-    font-size: 32px;
-    top: -120px;
-}
-.form{
-	width: 35%
-}
-}
+		.about p {
+		    font-size: 26px;
+		    margin: auto;
+		}
+		.form{
+			width: 35%;
+			right: 20px;
+		}
+		}
 
