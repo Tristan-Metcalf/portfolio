@@ -248,7 +248,7 @@ span{
 
 .contactInput{
 	position: relative;
-	margin: 10px;
+	margin: 2px;
 	width: 50%;
 	text-align: center;
 	background-color: rgb(50,51,55);
@@ -259,7 +259,7 @@ span{
 }
 .contactTextArea{
 	position: relative;
-	margin: 10px;
+	margin: 2px;
 	float: left;
 	width: 80%;
 	text-align: center;
@@ -274,6 +274,7 @@ span{
 .submitButton{
 	border-color: rgb(50,51,55);
 	background-color: rgb(50,51,55);
+	color: white;
 	}
 
 .container4 img{
