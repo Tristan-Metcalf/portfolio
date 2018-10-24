@@ -196,6 +196,20 @@ span{
 .aboutproject p{
 	padding: 10px;
 }
+.linkBox{
+	position: relative;
+	height: 60px;
+	width: 60px;
+	padding: 10px;
+	border: solid 2px white;
+	color: black;
+    right: -100px;
+    top: 125px;
+
+}
+.linkBox:hover{
+	background-color: white;
+}
 
 .containerbefore4 img{
 	position: relative;
@@ -435,6 +449,9 @@ margin: 5px;
 		.stackedform{
 			font-size: 36px;
 		}
-
+		.linkBox{
+			right: 7px;
+			top: 20px;
+		}
 		}
 
