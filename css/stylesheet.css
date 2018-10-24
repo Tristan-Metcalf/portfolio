@@ -1,7 +1,9 @@
 /*
 animation
 */
-
+.hide{
+	visibility: hidden;
+}
 @keyframes hoveranimation {
     from {color: none;}
     to {color: rgb(50,51,55);
@@ -164,14 +166,29 @@ span{
 	width: 100%;
 	background-image: url(../img/abstract-art-background-370799.jpg);
 }
+.flexboxinside4{
+	display: flex;
+	height: 50%;
+	width: auto;
+	margin: auto;
+
+}
 .iframe{
-	height: auto;
 	width: 50%;
-	margin: 100px auto;
+}
+.aboutproject{
+	font-size: 36px;
+	margin: auto;
+	width: 40%;
+	height: 100%;
+
+}
+.aboutprject p{
+	margin: 50px;
 }
 .containerbefore4 h1{
 	text-align: center;
-	margin: 10px auto;
+	margin: 40px auto;
 	font-size: 100px;
 	width: 100%;
 	height: 100px;
@@ -207,14 +224,13 @@ span{
 .container4inside{
   overflow: hidden;
   position: relative;
-  width: 60%;
-  height: 50%;
+  width: 100%;
+  height: 40%;
   display: flex;
   justify-content: center; /*centers items on the line (the x-axis by default)*/
   align-items: center; /*centers items on the cross-axis (y by default)*/
-  bottom: 80px;
+ margin-top: 50px;
   float: left;
-  padding-left: 30px;
 }
 .container4inside div{
 	float: left;
@@ -225,22 +241,20 @@ span{
 
 	.form{
 	position: relative;
-	float: right;
 	height: 55%;
 	width: 25%;
-	right: 87px;
-	top: -204px;
-	margin: 0px;
-	padding: 0px;
-	overflow: hidden;
-	border-radius: 20%;
+	right: -75px;
+	top: 75px;
 
+}
+.form h1{
+	margin: 0px 50px 50px 50px;
+	text-align: center;
 }
 .stackedform{
 	justify-content: center; /*centers items on the line (the x-axis by default)*/
   	align-items: center; /*centers items on the cross-axis (y by default)*/
   	display: flex;
-  	padding-top: 5px;
   	font-weight: bold;
   	font-size: 56px;
 
@@ -249,10 +263,8 @@ span{
 .contactInput{
 	position: relative;
 	margin: 2px;
-	width: 50%;
-	text-align: center;
-	background-color: rgb(50,51,55);
-	border-color: rgb(50,51,55);
+	width: 100%;
+
 
 
 
@@ -260,13 +272,11 @@ span{
 .contactTextArea{
 	position: relative;
 	margin: 2px;
-	float: left;
-	width: 80%;
+	width: 100%;
 	text-align: center;
 	height: 160px;
 	resize: none;
-	background-color: rgb(50,51,55);
-	border-color: rgb(50,51,55);
+
 
 
 
@@ -287,7 +297,7 @@ span{
 	margin-bottom: 0px;
 }
 
-.tooltip {
+/*.tooltip {
     position: relative;
     display: inline-block;
 }
@@ -301,13 +311,13 @@ span{
     border-radius: 6px;
     padding: 5px 0;
 
-    /* Position the tooltip */
+     Position the tooltip 
     position: absolute;
     z-index: 2;
 }
 .tooltip:hover .tooltiptext {
     visibility: visible;
-}
+}*/
 .container4 p{
 	font-weight: bold;
 	font-family: Helvetica;
@@ -333,24 +343,21 @@ span{
 
 
 	/*footer styles*/
-footer{
-	height: 0px;
-	position: relative;
-	background-color: rgb(50,51,55);
-}
+
 .footerleft{
-	float: left;
-	float: bottom;
-	padding: 3px;
+position: fixed;
+bottom: 0;
+left: 0;
+margin: 5px;
 
 }
+
 
 .footerright{
-	position: relative;
-	padding: 3px;
-	float: right;
-	color: black;
-	float: bottom;
+position: fixed;
+bottom: 0;
+right: 0;
+margin: 5px;
 
 }
 		@media only screen and (max-width: 1000px) {
@@ -386,6 +393,7 @@ footer{
 		.container4{
 				text-align: center;
 				overflow: hidden;
+				height: 35em;
 		}
 		.container4 img{
 			height: 90px;
@@ -420,8 +428,12 @@ footer{
 		    margin: auto;
 		}
 		.form{
-			width: 35%;
-			right: 20px;
+			width: 25%;
+			right:-20px;
 		}
+		.stackedform{
+			font-size: 36px;
+		}
+
 		}
 

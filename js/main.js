@@ -1,3 +1,6 @@
+
+
+
 (function($) {
 
   /**
@@ -69,6 +72,7 @@ $(window).scroll(function(event) {
   $(".imgAni").each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
+      el.removeClass("hide");
       el.addClass("fadein"); 
     }
   });
