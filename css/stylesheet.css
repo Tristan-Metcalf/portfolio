@@ -203,8 +203,7 @@ span{
 	padding: 10px;
 	border: solid 2px white;
 	color: black;
-    right: -100px;
-    top: 125px;
+	margin: auto;
 
 }
 .linkBox:hover{
@@ -259,9 +258,10 @@ span{
 	.form{
 	position: relative;
 	height: 55%;
-	width: 25%;
+	width: 30%;
 	right: -75px;
 	top: 75px;
+	padding-left: 30px;
 
 }
 .form h1{
@@ -343,11 +343,42 @@ span{
 /*footer*/
 .container5{
 	background-color: rgb(50,51,55);
-	height: 30em;
+	height: 35em;
 	margin-bottom: 0px;
+	display: flex;
 }
-
-
+.sourcesContainer{
+	height: 50%;
+	width: 40%;
+	margin: auto;
+	position: relative;
+	overflow: none;
+	padding-left: 100px;
+}
+.sourcesContainer cite{
+	font-size: 56px;
+	font-weight: bold;
+	position: relative;
+	top: -40px;
+}
+.sourcesContainer a{
+	font-size: 36px;
+	display: block;
+	top: 0px;
+	padding: 10px;
+	margin: auto;
+}
+.sourcesContainer a:hover{
+	color: lightblue;
+}
+.citeposition{
+	height: 100%;
+	width: 80%;
+	position: relative;
+	float: right;
+	
+	top: -20px;
+}
 
 
 #imageone p{
@@ -453,5 +484,11 @@ margin: 5px;
 			right: 7px;
 			top: 20px;
 		}
+		.sourcesContainer cite{
+			font-size: 36px;
+		}
+	
+
+
 		}
 
