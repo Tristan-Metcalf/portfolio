@@ -209,6 +209,7 @@ span{
 }
 .linkBox:hover{
 	background-color: white;
+	color: black;
 }
 
 .containerbefore4 img{
@@ -491,6 +492,9 @@ margin: 5px;
 		}
 		.stackedform{
 			font-size: 36px;
+		}
+		.aboutproject{
+			font-size: 28px;
 		}
 		.linkBox{
 			right: 7px;
