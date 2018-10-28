@@ -501,7 +501,10 @@ margin: 5px;
 			top: 20px;
 		}
 		.sourcesContainer cite{
-			font-size: 28px;
+			font-size: 36px;
+		}
+		.sourcesContainer a{
+			font-size: 30px;
 		}
 	
 
