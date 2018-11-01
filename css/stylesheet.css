@@ -137,6 +137,9 @@ span{
 	height: 25em;
 	width: 100%;
 }
+strong{
+	font-weight: bold;
+}
 .container3inside{
 	display: flex;
 	height: 5em;
@@ -144,19 +147,15 @@ span{
 }
 .container3inside i{
 	display: flex;
-	font-size: 72px;
-	margin: 0px auto auto auto;
-	padding: 0px 100px 50px 100px;
-	text-align: center;
+	text-align:;
+	font-size: 52px;
+	margin:0 auto;
 }
 .container3inside p{
 	position: relative;
 	display: flex;
-	font-size: 46px;
-	margin: 0px auto auto auto;
-	text-align: center;
-	padding: 0px 100px 50px 100px;
-	width: auto;
+	font-size: 36px;
+	margin:0 auto;
 
 }
 .container3inside h1{
@@ -230,7 +229,7 @@ span{
 }
 
 .about p{
-	font-size: 32px;
+	font-size: 28px;
 }
 .container4{
 	height: 55em;
@@ -483,7 +482,7 @@ margin: 5px;
 		}
 
 		.about p {
-		    font-size: 26px;
+		    font-size: 18px;
 		    margin: auto;
 		}
 		.form{
