@@ -28,7 +28,7 @@
 			<div id="navbar">
 				<ul class="left">
 					<li><img style="height: 54px;width: 56px;position: relative;left: 30px;" class="resize" src="img/tm3.png" alt=""></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="portfolio.php">Portfolio</a></li>
 					<li><a href="#usrform">Contact</a></li>
 					<!-- <li><a id="button1" href="#">services</a></li> -->
 				</ul>
@@ -125,7 +125,7 @@
 							<p>	Tools used: Html,Css, and JQuery</p>
 							<br>
 
-							<a class="linkBox" href="portfolio.html">
+							<a class="linkBox" href="portfolio.php">
 								Click Here For More →
 							</a>
 
@@ -200,7 +200,7 @@
 						</div>
 							
 							<div class="hide imgAni">	
-						<cite class="footerleft">Tristan Metcalf 2018</cite>
+						<cite class="footerleft">Tristan Metcalf &copy; 2018-<?php echo date("Y"); ?></cite>
 						<a class="footerright" href="policy.html">Policy</a>
 							</div>
 			</div>

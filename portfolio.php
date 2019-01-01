@@ -21,7 +21,7 @@
 			<div id="navbar">
 				<ul class="left">
 					<li><img style="height: 54px;width: 56px;position: relative;left: 30px;" class="resize" src="img/tm3.png" alt=""></li>
-					<li><a href="index.html">Home</a></li>
+					<li><a href="index.php">Home</a></li>
 					<li><a href="#usrform">Contact</a></li>
 					<!-- <li><a id="button1" href="#">services</a></li> -->
 				</ul>
@@ -63,8 +63,8 @@
 						</div>
 							
 							<div class="hide imgAni">	
-						<cite class="footerleft">Tristan Metcalf 2018</cite>
-						<a class="footerright" href="policy.html">Policy</a>
+						<cite class="footerleft">Tristan Metcalf &copy; 2018-<?php echo date("Y"); ?></cite>
+						<a class="footerright" href="policy.php">Policy</a>
 							</div>
 			</div>
 
