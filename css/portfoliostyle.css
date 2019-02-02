@@ -1,0 +1,6 @@
+	.Maincontainer{
+	height: 70em;
+	width: 100%;
+	background-image: url(../img/portfoliobackground.jpg);
+	display: flex;
+	}

@@ -85,7 +85,9 @@ $(window).scroll(function(event) {
   $(".imgAni2").each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
-      el.addClass("fadein"); 
+      setTimeout(function() {
+el.addClass("fadein"); 
+}, 3000);
     }
   });
   
